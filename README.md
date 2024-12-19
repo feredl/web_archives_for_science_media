@@ -12,12 +12,12 @@
 
 1.      Установка WSL2, wpull официально поддерживается на Unix.   
 2.      С помощью pyenv установка версии питона 3.6.15.  
-3.      Установка корректных зависимостей для wpull:  
-		`$ pip3 install tornado==4.5.3`
-		`$ pip3 install sqlalchemy==1.0.13`
-		`$ pip3 install html5lib==0.9999999`
-4.      Запуск wpull_mass.py. В файле domains.csv сохранены URL сайтов для архивации. 
-		`$ python3 wpull_mass.py domains.csv`
+3.      Установка корректных зависимостей для wpull:  //
+		`$ pip3 install tornado==4.5.3`  //
+		`$ pip3 install sqlalchemy==1.0.13` //
+		`$ pip3 install html5lib==0.9999999` //
+4.      Запуск wpull_mass.py. В файле domains.csv сохранены URL сайтов для архивации. //
+		`$ python3 wpull_mass.py domains.csv` //
 		
 Каждый архив представляет собой 4 файла с расширениями warc, db, cdx, log. Архивы сохранены в соответствующих папках. 
 С помощью команды ниже (утилиты metawarc) созданы файлы headers с http заголовками каждого сайта: 
