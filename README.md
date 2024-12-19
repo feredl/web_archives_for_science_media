@@ -17,10 +17,10 @@
 		`$ pip3 install sqlalchemy==1.0.13` \
 		`$ pip3 install html5lib==0.9999999` \
 4.      Запуск wpull_mass.py. В файле domains.csv сохранены URL сайтов для архивации. \
-		`$ python3 wpull_mass.py domains.csv` \
+		`$ python3 wpull_mass.py domains.csv` 
 		
 Каждый архив представляет собой 4 файла с расширениями warc, db, cdx, log. Архивы сохранены в соответствующих папках. 
-С помощью команды ниже (утилиты metawarc) созданы файлы headers с http заголовками каждого сайта: 
+С помощью команды ниже (утилиты metawarc) созданы файлы headers с http заголовками каждого сайта: \
 `$ metawarc export -t headers -o headers.jsonl *URL*.warc.gz`
 
 Ссылка на папки архивов: https://drive.google.com/drive/folders/12dcZOCOGzL73H85JbVaHK76ZlgU1AgOR?dmr=1&ec=wgc-drive-hero-goto
