@@ -1,3 +1,4 @@
+#Анализ архивируемости с помощью ArchiveReady
 
 Для формирования оценки используется метод [CLEAR](https://purl.pt/24107/1/iPres2013_PDF/CLEAR%20a%20credible%20method%20to%20evaluate%20website%20archivability.pdf) и сайт [ArchiveReady](https://archiveready.com). CLEAR состоит из оценки (с весами) доступности (Accessibility), соблюдения стандартов (Standards Compliance), производительности (Performance), связности (Cohesion) и использования метаданных (Metadata). Краткие описания параметров:
 1.    Доступность – содержимое без проблем извлекается с помощью http-запросов. Правильное использование вспомогательных ресурсов.
@@ -54,7 +55,7 @@
 
 | Ссылка на анализ                                                                         | Архивируемость (%) |
 | ---------------------------------------------------------------------------------------- | ------------------ |
-| [Vox medii aevi ArchiveReady](http://archiveready.com/check?url=http://voxmediiaevi.com) | 66%                |
+| [ЗЕЛО ArchiveReady](http://archiveready.com/check?url=http://zelomi.ru) | 66%                |
 
 | Параметр                  | Значение (%) |
 | ------------------------- | ------------ |
