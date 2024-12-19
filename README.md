@@ -23,6 +23,8 @@
 С помощью команды ниже (утилиты metawarc) созданы файлы headers с http заголовками каждого сайта: 
 `$ metawarc export -t headers -o headers.jsonl *URL*.warc.gz`
 
+ССылка на папки архивов: https://drive.google.com/drive/folders/12dcZOCOGzL73H85JbVaHK76ZlgU1AgOR?dmr=1&ec=wgc-drive-hero-goto
+
 ## **Описание сайтов и ссылки на соцсети проектов**
 
 1.       [**vtol**.**cc**](https://vtol.cc/)
